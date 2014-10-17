@@ -124,7 +124,7 @@ echo "<br>"."ราคา".$sum."บาท";
 else
 {
 	$sum = $field_select;  
-echo "<br>"."ราคา".$sum."บาท";}
+echo "<br>"."ราคารวมทั้งหมด : ".$sum."บาท";}
 
   
 ?>  
@@ -132,7 +132,20 @@ echo "<br>"."ราคา".$sum."บาท";}
    <p>
      <input type="image" name="imageField4" id="imageField4" src="52659.gif">
    </p>
-   <p>&nbsp;</p><p><a href="index.php">BACK</a></p></p>
+   <p>
+    <input type="image" name="imageField8" id="imageField8" src="4.jpg" width="200" height="80">
+  </p>
+   <table width="200" height="66" border="1">
+     <tr>
+       <th scope="col"><?php
+   $comment=$_POST['comment'];
+   echo $comment;
+   ?></th>
+     </tr>
+   </table>
+   <p>&nbsp;</p>
+   
+   <p><a href="index.php">BACK</a></p></p>
 </form> 
 </center>
 <p>&nbsp;</p>

@@ -49,7 +49,7 @@
   <h4><strong><br>
   </strong></h4>
   <h2>
-    <input type="image" name="imageField7" id="imageField7" src="3.jpg">
+    <input type="image" name="imageField7" id="imageField7" src="3.jpg" width="200" height="80">
   </h2>
   <h4>     <strong>
     <input name="select2[]" type="checkbox" id="select2[]" value="0">
@@ -66,8 +66,11 @@
     <input type="image" name="imageField4" id="imageField4" src="52659.gif">
   </p>
   <p>**ราคาก๋วยเตี๋ยวธรรมดา (ไม่เพิ่มท็อปปิ้ง) ราคาชามละ 35 บาท**</p>
-  <p>ก๋วยเตี๋ยวชามปกติจะมี หมู ลูกชิ้น ตับ ให้อยู่แล้ว</p>
-  <p>**ถ้าไม่ต้องการใส่อะไร กรุณาหมายเหตุ**</p>
+  <p>**ก๋วยเตี๋ยวชามปกติจะมี หมู ลูกชิ้น ตับ หมูสับให้อยู่แล้ว **</p>
+  <p>(ถ้าไม่ใส่อะไรให้หมายเหตุ)</p>
+  <p>
+    <input type="image" name="imageField8" id="imageField8" src="4.jpg" width="200" height="80">
+  </p>
   <p>
     <textarea name="comment" id="textarea" cols="50" rows="10"></textarea>
   </p>
